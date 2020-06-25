@@ -10,6 +10,9 @@
         }
     }
 /* body css for profiles */
+.overlapgap{
+    height: 250px;
+}
 .row1{
     justify-content: center;
     padding-left: 15%;
@@ -17,8 +20,7 @@
 
 .position2{
     position: relative ;
-    margin-top: 250px;
-    top: 40%;
+    margin-top: 20px;
     height: 380px;
     width: 250px;
     transform: translate(-50%, -50%);
@@ -113,15 +115,22 @@
 
 /* footer css */
 .company-bio-footer{
-    
     font-size: large;
-    margin-bottom: 10%;
+    margin-bottom: 90px;
 }
 .social-footer{
     float: right;
-    margin-left: 40%;
+    margin-left: 30%;
 }
 .social-list-footer{
     font-size: large;
     list-style: none;
+}
+
+
+@media only screen and (max-width:600px)
+{
+ .position2{
+     margin-left: 110px;
+ }   
 }
